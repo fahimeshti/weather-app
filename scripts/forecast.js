@@ -1,5 +1,5 @@
 const key = 'VMxvrPXkms9v2Ap9zyaA8AcKqhbR2ovs'
-console.log('Hello1')
+
 // get weather info
 
 const getWeather = async (id) =>{
@@ -12,7 +12,7 @@ const getWeather = async (id) =>{
    return data[0]
 
 };
-console.log('Hello2')
+
 // get city info
 const getCity = async (city) =>{
     const base = 'http://dataservice.accuweather.com/locations/v1/cities/search'
@@ -24,4 +24,4 @@ const getCity = async (city) =>{
    return data[0]
 };
 
-console.log('Hello3')
+
