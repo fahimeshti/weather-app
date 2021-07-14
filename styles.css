@@ -1,0 +1,45 @@
+body{
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+.container{
+  max-width: 400px;
+}
+.icon{
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+.preceps{
+  font-size: 0.7em;
+  letter-spacing: 0.15em;
+
+}
+.block_title {
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 40px;
+  padding: 40px;
+}
+.block_title:before,.block_title:after {
+  content: "";
+  background: #ccc;
+  display: inline-block;
+  height: 1.5px;
+  position: relative;
+  width: 42%;
+  vertical-align: middle;
+}
+.block_title:before {
+  right: 0.5em;
+  margin-left: -42%;
+}
+.block_title:after {
+  left: 0.5em;
+  margin-right: -42%;
+}
