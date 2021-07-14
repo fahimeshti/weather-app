@@ -9,7 +9,7 @@ const icon = document.querySelector('.icon img');
 
         // const cityDets = data.cityDets;
         // const weather = data.weather;
-        console.log(data);
+       // console.log(data);
        
 
         // Destructuring properties
