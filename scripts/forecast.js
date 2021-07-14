@@ -23,3 +23,4 @@ const getCity = async (city) =>{
    return data[0]
 };
 
+console.log('Hello')
